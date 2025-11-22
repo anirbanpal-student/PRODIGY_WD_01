@@ -1,1 +1,1 @@
-Project Navigator
+Project Navigator-Responsive Landing Page
