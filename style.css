@@ -4,12 +4,12 @@
     font-family: sans-serif;
 }
 #nav{ 
-  height:10vh;
+  height:73px;
   display:flex;
   justify-content:space-between;
   align-items:center;
-  padding-left:2vw;
-  padding-right:2vw;
+  padding-left:32px;
+  padding-right:32px;
   position: fixed;
   box-shadow: 0 6px 8px rgba(0,0,0,0.2);
   position: fixed; 
@@ -24,7 +24,7 @@
 }
 #nav h3{
   color:#1D2147;
-  font-size:4vh;
+  font-size:29px;
   font-weight:500 px;
   margin-left:5 px;
 }
@@ -36,13 +36,13 @@
     display:flex;
     justify-content:space-between;
     align-items:center;
-    margin-right:0.5vw;
+    margin-right:8px;
 }
 .but{
   color:#1D2147;
-  font-size:2.7vh;
-  width:7.5vw;
-  height:6vh;
+  font-size:20px;
+  width:120px;
+  height:43.5px;
   display: flex;
   align-items: center;
   justify-content: center;
