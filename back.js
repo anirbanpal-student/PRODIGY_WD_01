@@ -3,7 +3,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const navButtons = navBar.querySelectorAll('.but');
     const sections = document.querySelectorAll('.body2');
     const body1 = document.getElementById('body1');
-
     const scrollChangePoint = 100;
     const SCROLLED_CLASS = 'scrolled'; 
 
