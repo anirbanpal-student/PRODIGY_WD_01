@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+#nav{ 
+  height:10vh;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding-left:2vw;
+  padding-right:2vw;
+  position: fixed;
+  box-shadow: 0 6px 8px rgba(0,0,0,0.2);
+  position: fixed; 
+  width: 97.5%;    
+  top: 0;        
+  left: 0;
+  z-index: 1000; 
+  transition: background-color 0.4s, box-shadow 0.4s;
+}
+#nav:hover{
+    background-color: rgb(244, 248, 251);
+}
+#nav h3{
+  color:#1D2147;
+  font-size:4vh;
+  font-weight:500 px;
+  margin-left:5 px;
+}
+#nav h3:hover{
+  cursor: pointer;
+}
+#nav1{
+    width:50%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-right:0.5vw;
+}
+.but{
+  color:#1D2147;
+  font-size:2.7vh;
+  width:7.5vw;
+  height:6vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+}
+#nav.scrolled {
+    background-color: #1D2147;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4);
+}
+#nav.scrolled h3 {
+    color: #fff; 
+}
+#nav.scrolled .but {
+    color: #fff;
+}
+.but:hover {
+    color: #fff; 
+    cursor: pointer;
+    background-color: #4f46e5; 
+}
+.clicked-div {
+    color: #fff; 
+    cursor: pointer;
+    background-color: #635bfa;
+}
+
+#body1
+{
+    height:540px;
+    display:flex;
+    flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   font-size:28px;
+   text-align: center;
+   margin-right: 20px;
+   margin-left: 60px;
+   font-weight: 100;
+   color:#1D2147;
+   padding-top: 10vh;
+}
+#body1 #topic
+{
+    font-size:80px;
+    font-weight:600;
+    margin-bottom:28px;
+    color:#1D2147;
+}
+.body2
+{
+   height:410px;
+   align-items: center;
+   justify-content: center;
+   font-size:23px;
+   font-weight: 200;
+   margin:0 20px 50px 20px;
+   box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+   border-radius: 20px; 
+   padding:70px 30px 30px 40px;
+}
+.head
+{
+    font-size:38px;
+    font-weight:600;
+    margin-bottom:7px;
+    color:#4f46e5;
+    margin-bottom:30px;
+}
+#bottom
+{
+  height:150px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-size:27px;
+  background-color: #1D2147;
+  color:#fff;
+}
