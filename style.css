@@ -63,12 +63,6 @@
     cursor: pointer;
     background-color: #4f46e5; 
 }
-.clicked-div {
-    color: #fff; 
-    cursor: pointer;
-    background-color: #635bfa;
-}
-
 #body1
 {
     height:540px;
