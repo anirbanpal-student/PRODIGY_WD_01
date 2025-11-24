@@ -95,17 +95,4 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     });
-
-});
-document.addEventListener('DOMContentLoaded', () => {
-    const myDivs = document.querySelectorAll('.but'); 
-    myDivs.forEach(ele => {
-        
-        ele.addEventListener('click', () => {
-            myDivs.forEach(ot => {
-                ot.classList.remove('clicked-div');
-            });
-            ele.classList.toggle('clicked-div'); 
-        });
-    });
 });
